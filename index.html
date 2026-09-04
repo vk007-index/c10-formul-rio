@@ -28,7 +28,9 @@
     <meta name="twitter:card"
           content="summary_large_image">
 
+
     <style>
+
         * {
             box-sizing: border-box;
         }
@@ -37,6 +39,7 @@
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
             background: #f4f4f4;
+
             min-height: 100vh;
 
             display: flex;
@@ -46,10 +49,14 @@
 
         .container {
             background: white;
+
             width: 90%;
             max-width: 500px;
+
             padding: 35px;
+
             border-radius: 18px;
+
             text-align: center;
 
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
@@ -58,23 +65,27 @@
         .logo {
             width: 100%;
             max-width: 320px;
+
             margin-bottom: 25px;
         }
 
         h1 {
             font-size: 24px;
             margin-bottom: 12px;
+
             color: #111;
         }
 
         p {
             font-size: 16px;
             color: #555;
+
             line-height: 1.5;
         }
 
         .botao {
             display: inline-block;
+
             margin-top: 20px;
             padding: 15px 28px;
 
@@ -82,6 +93,7 @@
             color: white;
 
             text-decoration: none;
+
             font-size: 16px;
             font-weight: bold;
 
@@ -91,17 +103,64 @@
         .botao:hover {
             opacity: 0.85;
         }
+
+
+        /* =========================
+           CELULAR
+           ========================= */
+
+        @media (max-width: 600px) {
+
+            body {
+                padding: 15px 0;
+            }
+
+            .container {
+                width: 94%;
+
+                padding: 25px 18px;
+
+                border-radius: 15px;
+            }
+
+            .logo {
+                width: 100%;
+                max-width: none;
+
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .botao {
+                width: 100%;
+
+                padding: 16px;
+
+                font-size: 16px;
+            }
+        }
+
     </style>
 
 </head>
+
 
 <body>
 
     <div class="container">
 
-        <img src="logo.png"
-             alt="C10 Imóveis"
-             class="logo">
+        <img
+            src="logo.png"
+            alt="C10 Imóveis"
+            class="logo"
+        >
 
         <h1>
             Autorização de Venda de Imóvel
@@ -112,10 +171,12 @@
             clique no botão abaixo para acessar o formulário.
         </p>
 
-        <a class="botao"
-           href="https://forms.gle/Xq6CiKR6giYjvxhx8"
-           target="_blank"
-           rel="noopener noreferrer">
+        <a
+            class="botao"
+            href="https://forms.gle/Xq6CiKR6giYjvxhx8"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
             Acessar formulário
         </a>
 
